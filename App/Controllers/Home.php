@@ -8,9 +8,8 @@ class Home extends Controller
     {
         $user = new User;
         $arr['id'] = 19;
-        // $arr['name'] = "Dipak Poudel";
 
-        $user->where($arr);
+      //  $user->where($arr);
 
         // $user->findAll();
 
