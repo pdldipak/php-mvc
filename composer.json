@@ -1,5 +1,12 @@
 {
-    "require": {
-        "vlucas/phpdotenv": "^5.4"
-    }
+  "scripts": {
+    "fix-style": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+    "check-style": "vendor/bin/php-cs-fixer fix --allow-risky=yes --dry-run"
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "friendsofphp/php-cs-fixer": "^3.16",
+    "symfony/validator": "^6.0"
+  },
+  "config": {}
 }
